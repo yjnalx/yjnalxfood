@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="cSS/shop.css">
+    <link rel="icon" type="image/x-icon" href="WebPictures/utensils.png">
+    <script>
+      function orderfun(){
+        currentamount = parseInt(document.getElementById("amount").value);
+        if(currentamount <= 0){
+        alert('enter valid amount');
+      }
+      else if(currentamount >= 25){
+        alert('too many orders')
+      }
+      else(
+        alert('Successfully ordered '+ currentamount + ' Sipo Egg, Please Pick up Your order at the Physical store')
+      )
+    }
+    </script>
+</head>
+<body>
+    <img class="pagelogo" src="WebPictures/utensils.png">
+    <p class="pagetitle">Delicious Recipes
+    </p>
+  </div>
+  <div class="navContainer">
+            <button class="btn" onclick="window.location.href='firstpage.html';">
+                Home
+              </button>
+              <button class="Activebtn" onclick="window.location.href='shop.html';">
+                Shop 
+              </button>
+              <button class="btn" onclick="window.location.href='About.html';">
+                About 
+              </button> 
+        </div>
+        <center>
+          <!--product image-->
+<img class="foodpicture" src="WebPictures/sipoegg.png">
+</center>
+<center>
+  <hr>
+  <h2>Enter Amount:</h2>
+  <input type="text" id="amount" value="0"><br>
+  <input type="button" value="Order Now" id="orderbtn" onclick="orderfun()">
+  <hr>
+</center>
+</body>
+</html>

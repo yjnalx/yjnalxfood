@@ -1,0 +1,62 @@
+body {
+  background-image: url(WebPictures/blurbgc.jpg);
+  font-family: Arial, sans-serif;
+}
+.container {
+  position: absolute;
+  top: 260px;
+  left: 850px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.bodey {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  width: 1200px;
+  padding-right: 40px;
+  height: 580px;
+  background-color: lightgray;
+  border-radius: 50px;
+}
+.salmon {
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+.h2 {
+  position: absolute;
+  font-style:oblique;
+  top: 130px;
+  left: 750px;
+}
+.container2 {
+  position: absolute;
+  font-size: 12px;
+  top: 360px;
+  left: 810px;
+}
+.container label {
+  display: block;
+  margin-bottom: 10px;
+}
+.container input[type="text"],
+.container input[type="password"] {
+  width: 80%;
+  padding: 8px;
+  border: 0 solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.container input[type="submit"] {
+  background-color: gray;
+  color: black;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container input[type="submit"]:hover {
+  background-color: darkgray;
+}

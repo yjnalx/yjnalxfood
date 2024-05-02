@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delicious Recipes - Login</title>
+<link rel = "stylesheet" href="cSS/login.css">
+<link rel="icon" type="image/x-icon" href="utensils.png">
+<script>
+    function LogInfunction(){
+      let user1 = "yjnalx", user1psswrd ="4321";
+      if(username.value== user1 && password.value==user1psswrd){
+        window.location.href='firstpage.html';
+      }
+      else{
+        alert('Invalid Username or Password');
+      }
+    }
+  </script>
+  </head>
+
+  </div>
+  <body>
+    <div class="bodey">
+      <img class="salmon" src="WebPictures/salmon.png">
+      <h2 class="h2">Welcome back, User!</h2>
+      <div class="container2">New here? 
+        <a href="sign.html">Sign up here</a>
+    </div>
+  </div>
+    <center>
+    <div class="container">
+      <center>
+    <input type="text" id="username" placeholder="Username" autocomplete="off"/>
+     <input type="password" id="password" placeholder="Password" autocomplete="off"/>
+     <input type="submit" value="Login" onclick="LogInfunction()"/>
+    </center>
+    </div>
+    </center>
+  </body>
+  </html>

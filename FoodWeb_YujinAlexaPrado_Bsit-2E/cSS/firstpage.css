@@ -1,0 +1,97 @@
+body{
+	background-color:lightgray;
+	border: 0;
+	margin: 0;
+    overflow: hidden;
+}
+.pagelogo{
+    width: 8%;
+}
+.pagetitle{
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    font-family: serif;
+    font-size: 70px;
+    margin: 0;
+}
+.bg {
+	position: absolute;
+	top: 135px;
+    left: 0px;
+	width: 580px;
+	height: 530px;
+}
+.bonjour{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    font-family: serif;
+    font-size: 60px;
+    
+}
+.quote{
+    position: absolute;
+    top: 40%;
+    right: 9%;
+    font-style: italic;
+    font-size: 24px;
+}
+.Page {
+    position: absolute;
+    top: 64%;
+    right: 22%;
+    font-family: serif;
+    font-size: 20px;
+    border: none;
+    margin: .5rem;
+    background-color: transparent;
+    font-family: serif;
+    text-decoration: underline;
+}
+.Page:hover {
+    color: gray;
+    opacity: .5s;
+}
+.navContainer{
+    position: absolute;
+    top: 2%;
+    right: 7%;
+}
+.btn{
+    border: none;
+    margin: .5rem;
+    background-color: transparent;
+    font-family: serif;
+    font-size: 20px;
+}
+.btn:hover{
+    opacity: .5;
+}
+.Activebtn{
+    border: none;
+    margin: .5rem;
+    background-color: transparent;
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.aboutContent{
+    position: absolute;
+    top: 20%;
+    right: 9%;
+    font-style: italic;
+    font-size: 19px;
+    width: 50rem;
+    margin: 0;
+}
+.footar{
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
